@@ -1,0 +1,28 @@
+.grid-container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.grid-container--result {
+  margin: 20px auto;
+}
+
+.marvel-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 160px;
+}
+
+.card-thumbnail {
+  padding-top: 100%;
+  max-width: 100%;
+}
+
+.results-copy {
+  text-align: center;
+}
+
+.loading-spinner {
+  margin: 2rem auto;
+  width: 0;
+}
