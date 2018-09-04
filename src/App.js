@@ -75,15 +75,15 @@ class App extends Component {
                 name={result.name}
                 bio={result.description}
               />}
-            {found === false
-              ? <Typography
+            {!found && 
+              <Typography
                 className='results-copy'
                 variant='subheading'
                 gutterBottom
-                >
-                  There's not result
-                </Typography>
-              : ''}
+              >
+                There's not result
+              </Typography>
+            }
           </Grid>
         </Grid>
       </Fragment>
